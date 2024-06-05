@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pug Gallery</title>
+    <style>
+        body {
+            background-color: pink;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Pug Gallery</h1>
+    <div class="gallery">
+        <img src="./resources/cutepug.jpeg" alt="Cute pug">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi_ovLyDeGEwV7KKUHJI7zzkdZOG2LQPfYqw&s" alt="Sleepy pug">
+        <img src="pug3.jpg" alt="Playful pug">
+        <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi_ovLyDeGEwV7KKUHJI7zzkdZOG2LQPfYqw&s">Pug images here!!!</a>
+    </div>
+</body>
+</html>
